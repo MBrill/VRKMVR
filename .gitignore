@@ -7,10 +7,11 @@
 # Andere Unity Verzeichnisse
 **/Library/*
 **/obj/*
+**/UserSettings/*
 **/ProjectSettings/*
 **/Logs/*
-# Hier werden die Namen zu lange ...
-**/PackageCache/*
+**/Logs/*.logs
+**/*.dwlt
 
 
 # Prerequisites
@@ -79,4 +80,3 @@ ExportedObj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
-.Rproj.user
