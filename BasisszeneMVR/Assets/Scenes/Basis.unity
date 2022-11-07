@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!21 &500434699
+--- !u!21 &548525569
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -201,7 +201,7 @@ Material:
     - _Color: {r: 0, g: 0.92156863, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!21 &548525569
+--- !u!21 &868962987
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -845,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
       propertyPath: EditorConfigFile
-      value: C:/Users/brill/Develop/Github/VirtualReality/VRKompakt/Unity/VR/VRKMVR/Configs/simpleKeyboardTrackerWandMouseTracker.vrx
+      value: C:/Users/brill/Develop/Github/VirtualReality/VRKompakt/Unity/VR/VRKMVR/Configs/simpleMouseTracker.vrx
       objectReference: {fileID: 0}
     - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
       propertyPath: VRProperties.ShowWand
@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
---- !u!43 &1725299272
+--- !u!43 &1457511689
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
