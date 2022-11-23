@@ -6,7 +6,7 @@ using MiddleVR.Unity;
 /// Beispiel für eine Interaktion mit MiddleVR mit Hilfe des Wand.
 /// </summary>
 /// <remarks>
-/// Wir verwenden eine Tasteauf dem Wandr für das Highlighting
+/// Wir verwenden eine Taste auf dem Wandr für das Highlighting
 /// eines GameObjects.
 ///
 /// Eine Version mit Hilfe der Tastatur finden wir in der Klasse
@@ -37,7 +37,7 @@ public class WandHighlighter : MonoBehaviour
     /// </remarks>
     private uint button = 0;
     /// <summary>
-    /// Statur des Highlighters
+    /// Status des Highlighters
     /// </summary>
     private bool m_status = false;
     /// <summary>
@@ -73,7 +73,7 @@ public class WandHighlighter : MonoBehaviour
     }
 
     /// <summary>
-    /// Reaktion auf den Tastendruck auf dem Wand.
+    /// Reaktion auf den Tastendruck auf dem Controller.
     /// </summary>
     /// <remarks>
     /// Es gibt auch die Funktion IsWandButtonPressed.
