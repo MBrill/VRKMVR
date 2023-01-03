@@ -123,6 +123,84 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &490851843
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0, g: 0.92156863, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!21 &548525569
 Material:
   serializedVersion: 8
@@ -605,84 +683,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &1013161831
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0, g: 0.92156863, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1054596482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -740,132 +740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b35232da95781554f9c001204dbdb8eb, type: 3}
---- !u!1001 &1443301950
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: DefaultRayLength
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: DefaultRayColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: DefaultRayColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: DefaultRayColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789744, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789745, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789746, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789749, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789750, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373039789751, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465864, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_Name
-      value: MVRManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: PreviewWindow
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: AttachToCamera
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: EditorConfigFile
-      value: D:/Users/Brill/Develop/GitHub/Virtual Reality/VRKMVR/Configs/simpleKeyboardTrackerWand.vrx
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: VRProperties.ShowWand
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: advancedProperties._showFPS
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: advancedProperties.TemplateCamera
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
-      propertyPath: advancedProperties.DisableExistingCameras
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
---- !u!43 &1716689729
+--- !u!43 &1331877499
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1269,6 +1144,131 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1443301950
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: DefaultRayLength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: DefaultRayColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: DefaultRayColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789738, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: DefaultRayColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789744, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789745, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789746, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789749, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789750, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373039789751, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465864, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_Name
+      value: MVRManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465869, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: PreviewWindow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: AttachToCamera
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: EditorConfigFile
+      value: D:/Users/Brill/Develop/GitHub/Virtual Reality/VRKMVR/Configs/PassivStereoLab.vrx
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: VRProperties.ShowWand
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: advancedProperties._showFPS
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: advancedProperties.TemplateCamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096799373566465870, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
+      propertyPath: advancedProperties.DisableExistingCameras
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1106f80c71f75d49b48cd77eee35abc, type: 3}
 --- !u!1001 &641126558364672828
 PrefabInstance:
   m_ObjectHideFlags: 0
